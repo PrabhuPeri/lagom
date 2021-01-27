@@ -64,7 +64,7 @@ What's happening behind the scenes when you `runAll`?
 
 This all happens automatically without special code or additional configuration.
 
-You can verify that your services are running by viewing `http://localhost:8000/services` in a web browser (or with a command line tool such as `curl`).  The Service Locator, running on port 8000, will return JSON such as:
+You can verify that your services are running by viewing `http://localhost:9000/services` in a web browser (or with a command line tool such as `curl`).  The Service Locator, running on port 9000, will return JSON such as:
 
 ```
 [{"name":"hellostream","url":"http://0.0.0.0:26230"},
